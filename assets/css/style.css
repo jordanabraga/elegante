@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #260011;
+    background-color: #e5d4c2;
+}
+
+h1,
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4px;
+    color: #260011;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 83px;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #d41f35;
+    color: #d41f35;
+}
+
+.active {
+    border-bottom: 1px solid #d41f35;
+}
+
+#outer-hero {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 120px;
+
+    padding: 40px;
+    background-color: #d41f35;
+    box-shadow: 18px 18px 0px -6px rgba(238, 215, 190, 1);
+
+    bottom: 60px;
+    right: 150px;
+
+    position: absolute;
+}
+
+#cover-text h2 {
+    color: #eed7be;
+}
