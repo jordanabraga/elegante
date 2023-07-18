@@ -26,8 +26,6 @@ h2 {
     margin-left: 30px;
 }
 
-/* navigation links */
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -98,10 +96,9 @@ h2 {
 #location {
     margin-top: 20px;
     padding-top: 6px;
-    height: 600px;
+    height: 700px;
     background: url(../images/giorgio-chef.webp) no-repeat center left;
     background-color: #aea2a6;
-
 }
 
 #left-about {
@@ -152,7 +149,7 @@ hr {
     text-align: right;
 }
 
-#welcome {
+.welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
@@ -171,4 +168,74 @@ hr {
     width: 100%;
     height: 100%;
 
+}
+
+.form-section {
+    height: 700px;
+}
+
+.reservation-form {
+    color: #e5d4c2;
+    background-color: #aea2a6;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 600px;
+
+}
+
+.reservation-form h2 {
+    color: #e5d4c2;
+    ;
+    margin-bottom: 20px;
+}
+
+.reservation-form label {
+    font-size: 120%;
+    line-height: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #e5d4c2;
+    width: 100%;
+    height: 30px;
+    margin: 5px 65px 0 0;
+    border: 4px solid #e5d4c2;
+    border-radius: 2px;
+}
+
+.select-date {
+    color: #e5d4c2;
+    width: 50%;
+    height: 30px;
+    margin: 5px 65px 0 0;
+    border: 4px solid #e5d4c2;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    color: #f16c6b;
+}
+
+.book-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 140%;
+    font-weight: 700;
+    background-color: #d41f35;
+    color: #e5d4c2;
+    ;
+    display: block;
+}
+
+.book-button:hover {
+    background-color: #e5d4c2;
+    color: #d41f35;
+}
+
+footer {
+    height: 300px;
+    background-color: #aea2a6;
 }

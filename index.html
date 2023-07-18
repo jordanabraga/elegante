@@ -18,7 +18,7 @@
         </a>
         <nav>
             <ul id="menu">
-                <li><a href="#">Book Now</a></li>
+                <li><a href="#bookings">Book Now</a></li>
                 <li><a href="#location">Location</a></li>
                 <li><a href="index.html" class="active">Home</a></li>
 
@@ -34,7 +34,7 @@
     </section>
 
     <section id="location">
-        <h2 id="welcome">Location</h2>
+        <h2 class="welcome">Location</h2>
         <div id="left-about">
         </div>
         <div id="right-about">
@@ -63,7 +63,34 @@
             </div>
         </div>
     </section>
-    <section>bookings</section>
+    <section class="form-section" id="bookings">
+
+        <h2 class="welcome">Make a Reservation</h2>
+
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="reservation-form" target="_blank">
+            
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+    
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+    
+            <label for="phone">Phone Number</label>
+            <input type="phone" id="phone" name="phone_number" class="text-input" required>
+    
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input">
+            
+            <label for="date">Date</label><br>
+            <input type="date" name="date" value="" class="select-date" id="date" placeholder="select date" required><br>
+    
+            <label for="time">Time</label><br>
+            <input type="time" id="time" name="booking_time" class="select-date" required>
+    
+    
+            <input class="book-button" type="submit" value="Place reservation">
+        </form>
+    </section>
     <footer>social icons</footer>
 </body>
 
