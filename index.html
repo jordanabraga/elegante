@@ -25,19 +25,19 @@
             </ul>
         </nav>
     </header>
+
     <section id="outer-hero">
         <div id="hero-image"
-            aria-label="Image of Eleganté terrace. It's a lovely sunny day and there's a woman sitting on one of the tables. The building behind is beige and has a big entrance.">
+            alt="Image of Eleganté terrace. It's a lovely sunny day and there's a woman sitting on one of the tables. The building behind is beige and has a big entrance.">
         </div>
         <div id="cover-text">
             <h2>The best of italian cuisine</h2>
         </div>
     </section>
-    </section>
 
     <section id="location">
         <h2 class="welcome"
-            aria-label="The pictures shows a young chef wearing dark modern uniform holding a cooking pan on top of the stove.">
+            alt="The pictures shows a young chef wearing dark modern uniform holding a cooking pan on top of the stove.">
             Location</h2>
         <div id="left-about">
         </div>
@@ -61,7 +61,7 @@
 
         </div>
         <div id="center-about">
-            <div id="iframe-container" aria-label="Address on the Google Maps.">
+            <div id="iframe-container" title="Address on the Google Maps.">
                 <iframe id="map-location"
                     src="https://www.google.com/maps/embed/v1/place?q=Santry,+Dublin,+Ireland&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
             </div>
@@ -80,14 +80,13 @@
             <input id="lname" name="last_name" type="text" class="text-input" required>
 
             <label for="phone">Phone Number</label>
-            <input type="phone" id="phone" name="phone_number" class="text-input" required>
+            <input type="text" id="phone" name="phone_number" class="text-input" required>
 
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email_address" class="text-input">
 
             <label for="date">Date</label><br>
-            <input type="date" name="date" value="" class="select-date" id="date" placeholder="select date"
-                required><br>
+            <input type="date" name="date" value="" class="select-date" id="date" required><br>
 
             <label for="time">Time</label><br>
             <input type="time" id="time" name="booking_time" class="select-date" required>
