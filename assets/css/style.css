@@ -259,6 +259,7 @@ footer {
 
 .social-title {
     text-align: center;
+    text-transform: uppercase;
     padding: 2% 1% 1% 1%;
     font-size: 220%;
     color: #e5d4c2;
@@ -306,6 +307,7 @@ footer p {
 
     #location {
         padding-top: 30px;
+        padding-bottom: 20px;
         margin: 0 auto;
         height: 1000px;
         background: url(../images/giorgio-chef.webp) no-repeat top left;
@@ -319,6 +321,7 @@ footer p {
         float: left;
         padding: 0;
         color: #eed7be;
+        margin-top: 6px;
     }
 
     .mobile-color {
@@ -338,7 +341,6 @@ footer p {
         border-style: solid;
         border-color: #e5d4c2;
         border-width: 9px;
-
     }
 
 }
@@ -359,7 +361,7 @@ footer p {
         }
 
     .social-title {
-            padding: 7% 1% 2% 1%;
+            padding: 7% 1% 4% 1%;
             font-size: 220%;
         }
 
@@ -382,6 +384,10 @@ footer p {
             margin: 0 auto;
             padding: 0;
         }
+
+    .form-section {
+    height: 800px;
+}
 
     .reservation-form {
             max-width: 70%;
