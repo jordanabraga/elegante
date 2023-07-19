@@ -94,11 +94,15 @@ h2 {
 }
 
 #location {
-    margin-top: 20px;
-    padding-top: 6px;
+    padding-top: 30px;
     height: 700px;
     background: url(../images/giorgio-chef.webp) no-repeat center left;
     background-color: #aea2a6;
+}
+
+#location>h2 {
+    background-color: #e5d4c2;
+    width: 180px;
 }
 
 #left-about {
@@ -236,6 +240,153 @@ hr {
 }
 
 footer {
-    height: 300px;
+    height: 200px;
     background-color: #aea2a6;
+}
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    color: #d41f35;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.social-title {
+    text-align: center;
+    padding: 2% 1% 1% 1%;
+    font-size: 220%;
+    color: #e5d4c2;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 1200px) {
+    #location {
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    #cover-text {
+        right: 50px;
+    }
+}
+
+#location>h2 {
+    margin: 0 auto;
+}
+
+#center-about {
+    margin-top: 30px;
+}
+
+.left-about-heading,
+.right-about-heading {
+    width: 90%;
+}
+
+@media screen and (max-width: 750px) {
+
+    .left-about-heading,
+    .right-about-heading {
+        width: 90%;
+    }
+
+.reservation-form {
+ max-width: 70%;
+}
+
+#location {
+    padding-top: 30px;
+    margin: 0 auto;
+    height: 1000px;
+    background: url(../images/giorgio-chef.webp) no-repeat top left;
+    background-size: cover;
+    background-color: #aea2a6;
+}
+
+#left-about, #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+    color: #eed7be;
+    }
+
+    .mobile-color {
+        color: #eed7be;
+    }
+
+#center-about {
+    clear: both;
+    width: 100%;
+    padding: 0;
+}
+
+#iframe-container {
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #e5d4c2;
+    border-width: 9px;
+
+}
+
+@media screen and (max-width: 570px) {
+        #menu {
+                clear: left;
+                float: left;
+                margin-left: 30px;
+                margin-bottom: 20px;
+                line-height: 25px;
+            }
+
+                        .social-networks i {
+                            font-size: 150%;
+                            margin-left: 1.5%;
+                            margin-right: 1.5%;
+                        }
+            
+                        .social-title {
+                            padding: 7% 1% 2% 1%;
+                            font-size: 220%;
+                        }
+            
+                        footer p {
+                            text-align: center;
+                            margin-top: 7%;
+                        }
+}
+
+@media screen and (max-width: 530px) {
+
+    #menu {
+        line-height: 50px;
+    }
+
+        #cover-text {
+            width: 70%;
+            height: 200px;
+            right: 40px;
+            margin: 0 auto;
+            padding: 0;
+            }
+
+                        .reservation-form {
+                        max-width: 70%;
+                        }
 }
