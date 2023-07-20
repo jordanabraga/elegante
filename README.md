@@ -13,6 +13,7 @@ Eleganté is a refined, modern Italian restaurant. It mixes the tradition with t
 ## Features
 
 **Navigation Bar**
+
 Features quick access to all the relevant information on the page (Home, Location and Book Now). It answers the question, "What do I want to know about this restaurant?"
 
 **Landing Page Image**
@@ -39,7 +40,7 @@ This section includes relevant social media links for Eleganté.
 
 ![Footer](https://imgtr.ee/images/2023/07/19/613f81825d411e8222efe9c93c926977.png)
 
-##Features Left to Implement
+## Features Left to Implement
 
 This project was made for the Code Institute course and as a MVP. If it were to be expanded, two other features would come next: A section for "About" to tell more the client about the restaurant, and a section for a "Menu" or special dishes. 
 
@@ -59,5 +60,6 @@ The link for the live project is https://jordanabraga.github.io/elegante/
 ## CREDITS
 
 **Images**
+
 Open source images from pexels.com
 
