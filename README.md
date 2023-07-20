@@ -1,39 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Eleganté Restaurant
 
-Welcome,
+**Eleganté** is a restaurant website. The goal of the website is to create a simple, accessible online space that gathers all relevant information for local businesses that wish to have an online presence without too much maintenance effort. The site features basic information like address, opening hours, social media links and includes a form for reservations.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Website displayed in multiple devices](https://ibb.co/kc03nNw)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Design
 
-## Codeanywhere Reminders
+Eleganté is a refined, modern Italian restaurant. It mixes the tradition with the energy of its young chefs. A special color palette translates these concepts, and maintain consistence throughout the website.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+**Navigation Bar**
+Features quick access to all the relevant information on the page (Home, Location and Book Now). It answers the question, "What do I want to know about this restaurant?"
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+**Landing Page Image**
 
-`http_server`
+This section shows the client with an image of the welcoming environment of the restaurant. This way they know what to expect of the place, how to find it on the street and the description tells them what type of food they mind find. The combination of image and text tells the client what to expect of this restaurant. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Location**
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+This section provides useful information such as the address and opening hours, and displays the location on google maps for easy access. There is also an image of a young chef that contrasts with the first, more traditional image adding to the restaurant narrative.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Reservation**
 
-To log into the Heroku toolbelt CLI:
+The goal of this section is to provide an easy, accessible way for clients to make bookings using the form. They can choose the date and time. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+**The Footer**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+This section includes relevant social media links for Eleganté. 
 
----
+##Features Left to Implement
 
-Happy coding!
+This project was made for the Code Institute course and as a MVP. If it were to be expanded, two other features would come next: A section for "About" to tell more the client about the restaurant, and a section for a "Menu" or special dishes. 
+
+## Testing 
+
+The website was tested with both the W3 HTML Checker and the CSS Jigsaw. The HTML showed improper use of the aria-label tag, which I fixed by adding the role="img" to the div. The CSS passed without errors. 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+## Deployment
+
+The link for the live project is https://jordanabraga.github.io/elegante/
+
+## CREDITS
+
+**Images**
+Open source images from pexels.com
+
