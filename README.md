@@ -49,7 +49,7 @@ This project was made for the Code Institute course and as a MVP. If it were to 
 
 ## Testing 
 
-The website was tested with both the W3 HTML Checker and the CSS Jigsaw.
+The website was tested with both the W3 HTML Checker, CSS Jigsaw and Lighthouse.
 
 - HTML
   - No errors were returned when passing through the official **W3C validator**
@@ -64,7 +64,7 @@ The website was tested with both the W3 HTML Checker and the CSS Jigsaw.
 - Color contrast analyzer
   - I tested the color using the Lighthouse suggested analyzer
 
-![css checker](assets/docs/colorcontrast.png)
+![color analyzer checker](assets/docs/colorcontrast.png)
 
 ## Deployment
 
