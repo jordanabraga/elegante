@@ -76,7 +76,7 @@ The website was tested with both the W3 HTML Checker, CSS Jigsaw and Google Ligh
 ### Manual Testing
 
 - I clicked on all buttons to make sure they were working and opening according to my intention. Example: The social media links open on a new a page. 
-- I also used the Google Maps embed to make sure it was working.
+- I also used the Google Maps embed to make sure it was working. The click and drag around feature works, as well as the link to see larger version. 
 - Initially the Form had a red color highlight when hovering the mouse on the input text. After testing it, I noticed that the color was too light and changed it to a darker shade of red. 
 - I tested the Form inserting values and it's working. 
 
