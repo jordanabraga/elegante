@@ -51,8 +51,6 @@ This project was made for the Code Institute course and as a MVP. If it were to 
 
 The website was tested with both the W3 HTML Checker, CSS Jigsaw and Google Lighthouse.
 
-I also tested the website on multiple screens available (Phone, Ipad and Notebook) while creating the project. 
-
 - HTML
   - No errors were returned when passing through the official **W3C validator**
 
@@ -74,6 +72,19 @@ I also tested the website on multiple screens available (Phone, Ipad and Noteboo
 ![lighthouse checker](assets/docs/lightohouse.png)
 
 ![lighthouse performance](assets/docs/googlemaps.png)
+
+### Manual Testing
+
+- I clicked on all buttons to make sure they were working and opening according to my intention. Example: The social media links open on a new a page. 
+- I also used the Google Maps embed to make sure it was working.
+- Initially the Form had a red color highlight when hovering the mouse on the input text. After testing it, I noticed that the color was too light and changed it to a darker shade of red. 
+- I tested the Form inserting values and it's working. 
+
+### Testing Responsiveness 
+
+I used [Responsive Design Checker](https://responsivedesignchecker.com/) to test in different screens. I also tested the website on multiple screens available (Phone, Ipad and Notebook) while creating the project. 
+
+![responsive](assets/docs/responsive.png)
 
 ## Deployment
 
