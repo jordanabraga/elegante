@@ -41,7 +41,7 @@ The goal of this section is to provide an easy, accessible way for clients to ma
 
 This section includes relevant social media links for Eleganté. 
 
-![Footer](assets/docs/footer.png)
+![Footer](assets/docs/footer.jpg)
 
 ## Features Left to Implement
 
