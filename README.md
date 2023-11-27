@@ -61,6 +61,11 @@ The website was tested with both the W3 HTML Checker and the CSS Jigsaw.
 
 ![css checker](assets/docs/w3ccsschecker.png)
 
+- Color contrast analyzer
+  - I tested the color using the Lighthouse suggested analyzer
+
+![css checker](assets/docs/colorcontrast.png)
+
 ## Deployment
 
 The link for the live project is https://jordanabraga.github.io/elegante/
