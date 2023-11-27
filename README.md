@@ -49,7 +49,9 @@ This project was made for the Code Institute course and as a MVP. If it were to 
 
 ## Testing 
 
-The website was tested with both the W3 HTML Checker, CSS Jigsaw and Lighthouse.
+The website was tested with both the W3 HTML Checker, CSS Jigsaw and Google Lighthouse.
+
+I also tested the website on multiple screens available (Phone, Ipad and Notebook) while creating the project. 
 
 - HTML
   - No errors were returned when passing through the official **W3C validator**
@@ -65,6 +67,13 @@ The website was tested with both the W3 HTML Checker, CSS Jigsaw and Lighthouse.
   - I tested the color using the Lighthouse suggested analyzer
 
 ![color analyzer checker](assets/docs/colorcontrast.png)
+
+- Google Lighthouse
+  - I used Google Lighthouse to test. SEO and Best Practices were 100% from the start, and I adjusted the Accessiblity issues (color contrast, and include a title on a frame). As for the performance, the main issue is related to the use of the Google Maps embed. The alerts are related to the use of the javascript, which I cannot change. 
+
+![lighthouse checker](assets/docs/lightohouse.png)
+
+![lighthouse performance](assets/docs/googlemaps.png)
 
 ## Deployment
 
