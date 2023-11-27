@@ -2,7 +2,9 @@
 
 **Eleganté** is a restaurant website. The goal of the website is to create a simple, accessible online space that gathers all relevant information for local businesses that wish to have an online presence without too much maintenance effort. The site features basic information like address, opening hours, social media links and includes a form for reservations.
 
-![Website displayed in multiple devices](https://imgtr.ee/images/2023/07/19/54c320c1796a5c0c954789d2d85afd57.jpeg)
+[Live Text](https://jordanabraga.github.io/elegante/)
+
+![Website displayed in multiple devices](assets/docs/mockupview.jpg)
 
 ## Design
 
