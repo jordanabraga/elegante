@@ -49,7 +49,7 @@ This project was made for the Code Institute course and as a MVP. If it were to 
 
 ## Testing 
 
-The website was tested with both the W3 HTML Checker and the CSS Jigsaw. The HTML showed improper use of the aria-label tag, which I fixed by adding the role="img" to the div. The CSS passed without errors. 
+The website was tested with both the W3 HTML Checker and the CSS Jigsaw.
 
 - HTML
   - No errors were returned when passing through the official **W3C validator**
