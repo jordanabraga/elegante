@@ -90,7 +90,7 @@ h2 {
 }
 
 #cover-text h2 {
-    color: #eed7be;
+    color: #260011;
 }
 
 #location {
@@ -310,7 +310,7 @@ footer p {
         padding-bottom: 20px;
         margin: 0 auto;
         height: 1000px;
-        background: url(../images/giorgio-chef.webp) no-repeat top left;
+        background: none;
         background-size: cover;
         background-color: #aea2a6;
     }
@@ -320,12 +320,7 @@ footer p {
         width: 100%;
         float: left;
         padding: 0;
-        color: #eed7be;
         margin-top: 6px;
-    }
-
-    .mobile-color {
-        color: #eed7be;
     }
 
     #center-about {
